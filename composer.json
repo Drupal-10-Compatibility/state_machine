@@ -113,6 +113,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/core": {
+                "Issue #3301782: PHP8 Deprecated function : htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated": "https://www.drupal.org/files/issues/2022-08-04/htmlspecialchars_passing_null_to_parameter1-3301782-5.patch"
+            },
             "drupal/state_machine": {
                 "Issue #3298162: Automated Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2022-07-18/state_machine.1.x-dev.rector.patch"
             }
